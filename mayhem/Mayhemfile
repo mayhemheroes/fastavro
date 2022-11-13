@@ -1,5 +1,5 @@
 project: fastavro
 target: reader-fuzz
 cmds:
-	- cmd: /src/mayhem/fuzz_reader.py
-	libfuzzer: true
+  - cmd: /src/mayhem/fuzz_reader.py
+  libfuzzer: true
